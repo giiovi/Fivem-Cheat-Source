@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="minhook\buffer.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hde\hde32.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hde\hde64.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hook.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\trampoline.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Librairies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Librairies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Librairies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Librairies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Librairies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d_Hook.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_animated.cpp">
+      <Filter>Librairies\ImGuiAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="editor.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonIncludes.cpp" />
+    <ClCompile Include="Extensions\etc_elements.cpp">
+      <Filter>Librairies\Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\nav_elements.cpp">
+      <Filter>Librairies\Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>Librairies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="antidebug.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.hpp" />
+    <ClInclude Include="minhook\buffer.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\hde32.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\hde64.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\pstdint.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\table32.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\table64.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\MinHook.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\trampoline.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Librairies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Librairies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Librairies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Librairies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Librairies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Librairies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Librairies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d_Hook.hpp">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.hpp">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.hpp">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="NoClip.hpp">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicule.hpp">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_animated.h">
+      <Filter>Librairies\ImGuiAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="native.hpp">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="imguinotify.hpp" />
+    <ClInclude Include="fa_solid_900.h" />
+    <ClInclude Include="Weapon.hpp">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="editor.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Executor.hpp">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonIncludes.hpp" />
+    <ClInclude Include="Extensions\byte_array.h">
+      <Filter>Librairies\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\etc_elements.h">
+      <Filter>Librairies\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\nav_elements.h">
+      <Filter>Librairies\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrpyt.h">
+      <Filter>Librairies\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="variables.h" />
+    <ClInclude Include="ref_container.h" />
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Librairies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.hpp" />
+    <ClInclude Include="Classes.hpp" />
+    <ClInclude Include="Drawing.hpp">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="encryption.hpp" />
+    <ClInclude Include="winapi.hpp" />
+    <ClInclude Include="xorstr.hpp" />
+    <ClInclude Include="globals.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Librairies">
+      <UniqueIdentifier>{992830e8-99c5-46af-96db-9c82eba2601d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Librairies\ImGui">
+      <UniqueIdentifier>{072da098-7986-4894-8cb9-7e626c37c992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Librairies\ImGuiAnim">
+      <UniqueIdentifier>{77404b71-d4f4-4993-9edf-25b7577e6560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Librairies\Extensions">
+      <UniqueIdentifier>{8483df17-8167-4fe4-b62c-0ab56e8ff100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats">
+      <UniqueIdentifier>{47eab1a7-99a6-414f-96b6-05d5e9888a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{c6f82452-e010-469a-a9da-4396cd2d2911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Native">
+      <UniqueIdentifier>{e46ac4aa-3644-466b-b38b-c8f10ac7062a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{bf9d2c22-7242-45f9-9f7c-1ce420e2d075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{d2f3b974-4faf-4baa-830c-7ffbd83f8147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minhook">
+      <UniqueIdentifier>{5e759fe7-5101-49b4-b047-c1b685245a59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="minhook\MinHook.def">
+      <Filter>Minhook</Filter>
+    </None>
+    <None Include="Aimbot.hpp">
+      <Filter>Cheats</Filter>
+    </None>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
